@@ -30,6 +30,21 @@ In golang, compare them to make a performance-oriented choice when parsing json
 go get github.com/kpango/go-json-bench
 ```
 
+## Usage
+### Benchmark
+```
+make bench
+```
+### Profiler
+```
+make profile
+```
+### Cleaning
+```
+make clean
+```
+
+
 ## Benchmark Result
 ```
 go test -count=10 -run=NONE -bench . -benchmem -o pprof/test.bin -cpuprofile pprof/cpu.out -memprofile pprof/mem.out
