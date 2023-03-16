@@ -1,3 +1,6 @@
+# This repository is Archived, no longer maintained.
+
+
 # Golang JSON Parse Benchmark
 golang json Unmarshal VS Decode Benchmark
 
